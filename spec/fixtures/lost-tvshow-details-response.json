@@ -1,0 +1,131 @@
+{
+  "backdrop_path": "/pRPJj3oczSIxo8L80qNweXaWnrp.jpg",
+  "created_by": [
+    {
+      "id": 1237491,
+      "name": "Jeffrey Lieber",
+      "gender": 0,
+      "profile_path": null
+    },
+    {
+      "id": 15344,
+      "name": "J.J. Abrams",
+      "gender": 2,
+      "profile_path": "/xljsYopubv9egYzclBPNf9EAYxB.jpg"
+    },
+    {
+      "id": 28974,
+      "name": "Damon Lindelof",
+      "gender": 0,
+      "profile_path": "/ijBWknhNh6At8gDoWqpoyvyXrZX.jpg"
+    }
+  ],
+  "episode_run_time": [
+    45,
+    42
+  ],
+  "first_air_date": "2004-09-22",
+  "genres": [
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "http://abc.go.com/shows/lost",
+  "id": 4607,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2010-05-23",
+  "name": "Lost",
+  "networks": [
+    {
+      "id": 2,
+      "name": "American Broadcasting Company"
+    }
+  ],
+  "number_of_episodes": 120,
+  "number_of_seasons": 6,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Lost",
+  "overview": "Lost is an American television series that originally aired on the American Broadcasting Company from September 22, 2004 to May 23, 2010, over six seasons which contained a total of 121 episodes. Lost is a drama series containing elements of science fiction and the supernatural that follows the survivors of the crash of a commercial passenger jet flying between Sydney and Los Angeles, on a mysterious tropical island somewhere in the South Pacific Ocean. The story is told in a heavily serialized manner. Episodes typically feature a primary storyline on the island, as well as a secondary storyline from another point in a character's life.",
+  "popularity": 21.546978,
+  "poster_path": "/jyGspygDXJMydTOJj7iWNx9Elyd.jpg",
+  "production_companies": [
+    {
+      "name": "Bad Robot",
+      "id": 11461
+    },
+    {
+      "name": "ABC Studios",
+      "id": 19366
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2005-04-27",
+      "episode_count": 29,
+      "id": 14047,
+      "poster_path": "/u1hvfXTqebq6Na5zhzHiJYZT0YK.jpg",
+      "season_number": 0
+    },
+    {
+      "air_date": "2004-09-22",
+      "episode_count": 24,
+      "id": 14041,
+      "poster_path": "/fc9f4ERC09U1GziCgDWilWWgjKx.jpg",
+      "season_number": 1
+    },
+    {
+      "air_date": "2005-09-21",
+      "episode_count": 24,
+      "id": 14042,
+      "poster_path": "/vGLddXoXJhKPsAWeDYbAsE4wW1z.jpg",
+      "season_number": 2
+    },
+    {
+      "air_date": "2006-10-04",
+      "episode_count": 23,
+      "id": 14043,
+      "poster_path": "/zLnuh6DVyrz5iaNVO6KNKubtffo.jpg",
+      "season_number": 3
+    },
+    {
+      "air_date": "2008-01-31",
+      "episode_count": 14,
+      "id": 14044,
+      "poster_path": "/TOfSxtW76sWrPn3YSm5GooaR3Y.jpg",
+      "season_number": 4
+    },
+    {
+      "air_date": "2009-01-21",
+      "episode_count": 17,
+      "id": 14045,
+      "poster_path": "/2OYKA6UIC56loPxgL4IMshg4mVr.jpg",
+      "season_number": 5
+    },
+    {
+      "air_date": "2010-02-02",
+      "episode_count": 18,
+      "id": 14046,
+      "poster_path": "/xUb57GiEwg6pJpU4F3e01PKRVlc.jpg",
+      "season_number": 6
+    }
+  ],
+  "status": "Ended",
+  "type": "Scripted",
+  "vote_average": 7.7,
+  "vote_count": 659
+}

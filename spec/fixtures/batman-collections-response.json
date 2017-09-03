@@ -1,0 +1,49 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "id": 120794,
+      "backdrop_path": "/9SpZvXLZDGGtFqVDByGqSGI64Kw.jpg",
+      "name": "Batman Collection",
+      "poster_path": "/adQxUvQW8HXNsvMG5aj71pHh9T.jpg"
+    },
+    {
+      "id": 290933,
+      "backdrop_path": "/leoLyMvUq2qExFZMtI8XAHNWQ94.jpg",
+      "name": "Superman / Batman (Animated) Collection",
+      "poster_path": "/f0fVwAo4fALk2yOMGxvU9Fp4EBL.jpg"
+    },
+    {
+      "id": 334996,
+      "backdrop_path": "/sVvEkTNx6SjwOb80iyURe5KHtcD.jpg",
+      "name": "Son of Batman Collection",
+      "poster_path": "/4LE9hRArztsTO0NOoJXeysgT7wB.jpg"
+    },
+    {
+      "id": 356688,
+      "backdrop_path": "/cp26uC7hCTXto8bAYYuKICQNBMl.jpg",
+      "name": "Batman Unlimited Collection",
+      "poster_path": "/kbRFPlkkZn0IqMXNDR4WSf5gato.jpg"
+    },
+    {
+      "id": 421904,
+      "backdrop_path": "/tXqcWo8zwLT07RCcVv9m6zrTqUF.jpg",
+      "name": "Batman (DC Universe Animated) Collection",
+      "poster_path": "/ycvSvnNrGe7kTtGcMOZflc3nbA8.jpg"
+    },
+    {
+      "id": 248534,
+      "backdrop_path": "/yCXuvuBUL2tFHXiSQkVSDWp1WIz.jpg",
+      "name": "Batman: The Dark Knight Returns Collection",
+      "poster_path": "/lvjiiFOKska8o4qGbOpdvYBsJQ0.jpg"
+    },
+    {
+      "id": 263,
+      "backdrop_path": "/xfKot7lqaiW4XpL5TtDlVBA9ei9.jpg",
+      "name": "The Dark Knight Collection",
+      "poster_path": "/bqS2lMgGkuodIXtDILFWTSWDDpa.jpg"
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 7
+}

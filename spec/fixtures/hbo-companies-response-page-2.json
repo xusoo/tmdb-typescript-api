@@ -1,0 +1,52 @@
+{
+  "page": 2,
+  "results": [
+    {
+      "id": 17980,
+      "logo_path": null,
+      "name": "HBO Documentary Films"
+    },
+    {
+      "id": 21222,
+      "logo_path": null,
+      "name": "HBO Independent Productions"
+    },
+    {
+      "id": 44618,
+      "logo_path": null,
+      "name": "HBO Latin America Originals"
+    },
+    {
+      "id": 67207,
+      "logo_path": null,
+      "name": "HBO Downtown Productions"
+    },
+    {
+      "id": 68646,
+      "logo_path": null,
+      "name": "HBO Premiere Films"
+    },
+    {
+      "id": 74926,
+      "logo_path": null,
+      "name": "HBO Polska (koprodukcja)"
+    },
+    {
+      "id": 40356,
+      "logo_path": null,
+      "name": "HBO Europe Executive producer of documentaries"
+    },
+    {
+      "id": 80310,
+      "logo_path": null,
+      "name": "Home Box Office Home Video (HBO)"
+    },
+    {
+      "id": 10961,
+      "logo_path": null,
+      "name": "DreamWorks SKG , DreamWorks Television, Home Box Office (HBO)"
+    }
+  ],
+  "total_pages": 2,
+  "total_results": 29
+}

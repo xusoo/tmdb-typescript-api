@@ -1,0 +1,339 @@
+{
+  "page": 1,
+  "total_results": 8,
+  "total_pages": 1,
+  "results": [
+    {
+      "popularity": 11.534419,
+      "id": 138,
+      "profile_path": "\/9ci4NBvHXJktxjALdJsrtasqgtV.jpg",
+      "name": "Quentin Tarantino",
+      "known_for": [
+        {
+          "vote_average": 7.8,
+          "vote_count": 9345,
+          "id": 68718,
+          "video": false,
+          "media_type": "movie",
+          "title": "Django Unchained",
+          "popularity": 8.307611,
+          "poster_path": "\/5WJnxuw41sddupf8cwOxYftuvJG.jpg",
+          "original_language": "en",
+          "original_title": "Django Unchained",
+          "genre_ids": [
+            18,
+            37
+          ],
+          "backdrop_path": "\/qUcmEqnzIwlwZxSyTf3WliSfAjJ.jpg",
+          "adult": false,
+          "overview": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+          "release_date": "2012-12-25"
+        },
+        {
+          "vote_average": 8.2,
+          "vote_count": 7619,
+          "id": 680,
+          "video": false,
+          "media_type": "movie",
+          "title": "Pulp Fiction",
+          "popularity": 9.235013,
+          "poster_path": "\/dM2w364MScsjFf8pfMbaWUcWrR.jpg",
+          "original_language": "en",
+          "original_title": "Pulp Fiction",
+          "genre_ids": [
+            53,
+            80
+          ],
+          "backdrop_path": "\/mte63qJaVnoxkkXbHkdFujBnBgd.jpg",
+          "adult": false,
+          "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+          "release_date": "1994-10-08"
+        },
+        {
+          "vote_average": 7.8,
+          "vote_count": 5704,
+          "id": 16869,
+          "video": false,
+          "media_type": "movie",
+          "title": "Inglourious Basterds",
+          "popularity": 6.836729,
+          "poster_path": "\/ai0LXkzVM3hMjDhvFdKMUemoBe.jpg",
+          "original_language": "en",
+          "original_title": "Inglourious Basterds",
+          "genre_ids": [
+            18,
+            28,
+            53,
+            10752
+          ],
+          "backdrop_path": "\/7nF6B9yCEq1ZCT82sGJVtNxOcl5.jpg",
+          "adult": false,
+          "overview": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
+          "release_date": "2009-08-18"
+        }
+      ],
+      "adult": false
+    },
+    {
+      "popularity": 1.0189,
+      "id": 116207,
+      "profile_path": null,
+      "name": "Alberto Tarantino",
+      "known_for": [
+        {
+          "vote_average": 8.8,
+          "vote_count": 4,
+          "id": 36785,
+          "video": false,
+          "media_type": "movie",
+          "title": "The Dependent",
+          "popularity": 1.028312,
+          "poster_path": "\/ighSQNfgiQq0kDfpWaEW9B3YKBw.jpg",
+          "original_language": "es",
+          "original_title": "El dependiente",
+          "genre_ids": [
+            18
+          ],
+          "backdrop_path": "\/eLVbtCcbBfOZ1XsKhiZrvILtqPq.jpg",
+          "adult": false,
+          "overview": "Fernandez is a lonely man leading a lonely life. All he does is work for an old man in a hardware store. But all that changes, when he meets the girl of his dreams... and her family.",
+          "release_date": "1969-01-01"
+        }
+      ],
+      "adult": false
+    },
+    {
+      "popularity": 1.000001,
+      "id": 87242,
+      "profile_path": "\/gV6n1qv81qTZPQ7rLAB0k2pGe1p.jpg",
+      "name": "Chris Tarantino",
+      "known_for": [
+        {
+          "vote_average": 3.8,
+          "vote_count": 8,
+          "id": 25713,
+          "video": false,
+          "media_type": "movie",
+          "title": "Animals",
+          "popularity": 2.077992,
+          "poster_path": "\/o3qd9sW5VDy2cmMA4rDOdtXbDBE.jpg",
+          "original_language": "en",
+          "original_title": "Animals",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "backdrop_path": "\/bXJfAypVSHu73ik0PsKnsiXXeDw.jpg",
+          "adult": false,
+          "overview": "Syd Jarrett is an unsuspecting, down-and-out man in a washed-up hick town who gets pulled into a sub-culture of blood-hungry creatures. He encounters Vic, a renegade whose animal instincts are stronger than his human ones. As things begin to get even worse, Jarrett realizes that his best chance for happiness, and survival, lies in his true love for Jane.",
+          "release_date": "2008-11-05"
+        },
+        {
+          "vote_average": 5.8,
+          "vote_count": 2,
+          "id": 21178,
+          "video": false,
+          "media_type": "movie",
+          "title": "Stuntmen",
+          "popularity": 1.048698,
+          "poster_path": "\/qUQoHijKhkqMEoGeqgzZuA6JTs3.jpg",
+          "original_language": "en",
+          "original_title": "Stuntmen",
+          "genre_ids": [
+            28,
+            35,
+            53,
+            99
+          ],
+          "backdrop_path": "\/oBssJZ27BJXoqw15qt2WUmmEfmM.jpg",
+          "adult": false,
+          "overview": "When the industry's two biggest stuntmen are nominated for Stuntman of the Year, an over-ambitious documentarian reignites a dormant rivalry between the two men that results in an all out press war.",
+          "release_date": "2009-01-01"
+        },
+        {
+          "vote_average": 0,
+          "vote_count": 0,
+          "id": 97177,
+          "video": false,
+          "media_type": "movie",
+          "title": "Screwball: The Ted Whitfield Story",
+          "popularity": 1.001625,
+          "poster_path": "\/r1CMTSAq7l3ExxlNfiZhIgfT0pI.jpg",
+          "original_language": "en",
+          "original_title": "Screwball: The Ted Whitfield Story",
+          "genre_ids": [
+            35
+          ],
+          "backdrop_path": "\/jdKTwIlVlg2oUDl4WXPVYGDnnVt.jpg",
+          "adult": false,
+          "overview": "Story takes place during the MLB strike of 1994 when the nation turned its eyes to the sport of wiffleball. We follow the the pursuit of Ted Whitfield as he tries to break the homerun and his subsequent battles with substance abuse.",
+          "release_date": "2010-10-01"
+        }
+      ],
+      "adult": false
+    },
+    {
+      "popularity": 1,
+      "id": 1089175,
+      "profile_path": null,
+      "name": "Mark Tarantino",
+      "known_for": [
+        {
+          "vote_average": 5.3,
+          "vote_count": 5,
+          "id": 41940,
+          "video": false,
+          "media_type": "movie",
+          "title": "Roadkill",
+          "popularity": 1.000016,
+          "poster_path": "\/AhounfkD73JySGv7ajIZj33OIWw.jpg",
+          "original_language": "en",
+          "original_title": "Roadkill",
+          "genre_ids": [
+            36,
+            12,
+            35,
+            18
+          ],
+          "backdrop_path": null,
+          "adult": false,
+          "overview": "Ramona works in a concert agency and is sent after the rock band 'Children of Paradise' who have disappeared. Since she can't drive, she has to take the train and bus and eventually hitchhike. On her way through the Canadian back country she meets the weirdest people - and learns to drive, what leads to... roadkill.",
+          "release_date": "1989-09-16"
+        }
+      ],
+      "adult": false
+    },
+    {
+      "popularity": 1,
+      "id": 1061609,
+      "profile_path": "\/m9U5TSC2lmpgZZsCuRbdol6Fx3F.jpg",
+      "name": "Paul Tarantino",
+      "known_for": [
+        {
+          "vote_average": 4.3,
+          "vote_count": 3,
+          "id": 109399,
+          "video": false,
+          "media_type": "movie",
+          "title": "Headhunter",
+          "popularity": 1.150371,
+          "poster_path": "\/yj1EwX21dhQH79W3K986Yw1i4jn.jpg",
+          "original_language": "en",
+          "original_title": "Headhunter",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "backdrop_path": null,
+          "adult": false,
+          "overview": "Soon after Ben Caruso (Benjamin John Parrillo) interviews with voluptuous headhunter Sarah Tierney (Kristi Clainos), she finds him a well-paying job on the graveyard shift and takes their professional relationship into new and dangerous territory. But the more accustomed Ben becomes to the office, the more he begins to suspect that he's literally taken the job from hell. Paul Tarantino (no relation to Quentin) directs.",
+          "release_date": "2005-05-06"
+        },
+        {
+          "vote_average": 6.3,
+          "vote_count": 3,
+          "id": 264108,
+          "video": false,
+          "media_type": "movie",
+          "title": "Any Given Wednesday",
+          "popularity": 1.08877,
+          "poster_path": null,
+          "original_language": "en",
+          "original_title": "Any Given Wednesday",
+          "genre_ids": [
+            35
+          ],
+          "backdrop_path": null,
+          "adult": false,
+          "overview": "A spoof of Oliver Stone's feature film Any Given Sunday.",
+          "release_date": "2000-02-02"
+        },
+        {
+          "vote_average": 0,
+          "vote_count": 0,
+          "id": 39388,
+          "video": false,
+          "media_type": "movie",
+          "title": "Courting Courtney",
+          "popularity": 1.07411,
+          "poster_path": "\/2Sc29BK9FjYkeqaJZTSQLSXWzT9.jpg",
+          "original_language": "en",
+          "original_title": "Courting Courtney",
+          "genre_ids": [
+            10749
+          ],
+          "backdrop_path": null,
+          "adult": false,
+          "overview": "Filmmaker Nick has decided to make a documentary about his best friend Courtney's love life.",
+          "release_date": "1997-06-09"
+        }
+      ],
+      "adult": false
+    },
+    {
+      "popularity": 1,
+      "id": 1657505,
+      "profile_path": null,
+      "name": "Stefania Tarantino",
+      "known_for": [],
+      "adult": false
+    },
+    {
+      "popularity": 1,
+      "id": 1402510,
+      "profile_path": null,
+      "name": "Richard Tarantino",
+      "known_for": [
+        {
+          "vote_average": 4.9,
+          "vote_count": 41,
+          "id": 15991,
+          "video": false,
+          "media_type": "movie",
+          "title": "Bad Biology",
+          "popularity": 1.2582,
+          "poster_path": "\/4MqJr3HHdKWsHOPIcR7rBrJviO2.jpg",
+          "original_language": "en",
+          "original_title": "Bad Biology",
+          "genre_ids": [
+            14,
+            27
+          ],
+          "backdrop_path": "\/kkC2BFsTNorkbppceZKd4Mp0SfY.jpg",
+          "adult": false,
+          "overview": "Driven by biological excess, a young man and woman search for sexual fulfillment, unaware of each other's existence. Unfortunately, they eventually meet, and the bonding of these two very unusual human beings ends in an explosive and ultimately over-the-top sexual experience, resulting in a truly god awful love story....",
+          "release_date": "2008-02-08"
+        }
+      ],
+      "adult": false
+    },
+    {
+      "popularity": 1,
+      "id": 1768739,
+      "profile_path": null,
+      "name": "Franky Tarantino",
+      "known_for": [
+        {
+          "vote_average": 0,
+          "vote_count": 0,
+          "id": 444528,
+          "video": false,
+          "media_type": "movie",
+          "title": "TIME: The Kalief Browder Story",
+          "popularity": 1.01748,
+          "poster_path": "\/6imk1mrpen21pr5jp9cr0HLJIpp.jpg",
+          "original_language": "en",
+          "original_title": "TIME: The Kalief Browder Story",
+          "genre_ids": [
+            99
+          ],
+          "backdrop_path": null,
+          "adult": false,
+          "overview": "After his arrest at age 16, Kalief Browder fought the system and prevailed, despite unthinkable circumstances. He became an American hero.",
+          "release_date": "2017-03-01"
+        }
+      ],
+      "adult": false
+    }
+  ]
+}
