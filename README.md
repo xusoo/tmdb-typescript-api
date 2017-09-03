@@ -4,7 +4,7 @@ _tmdb-typescript-api_ is a wrapper of the TMDB's API v3, made with Typescript.
 
 `npm i -S tmdb-typescript-api`
 
-##Features
+## Features
 
 Implemented features so far are:
 - Search (movies, shows, people, collections, companies and keywords)
@@ -13,7 +13,7 @@ Implemented features so far are:
 - People
 - Collections
 
-##Usage
+## Usage
 
 ```typescript
 let api: TmdbApi = new TmdbApi('<API_KEY>');
@@ -26,7 +26,7 @@ api.search.movies('Pulp Fiction').subscribe((movies) => {
 
 Every result has the exact same property names as the original API: https://developers.themoviedb.org/3/getting-started
 
-##Test
+## Test
 
 `npm run test`
 
@@ -37,7 +37,7 @@ This will trigger an offline testing using mock JSON fixtures. If you want to tr
 (you also can use `karma start`)
 
 
-##Build
+## Build
 
 Using Rollup.js
 
