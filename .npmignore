@@ -1,0 +1,11 @@
+node_modules/
+.idea/
+tmdb-typescript-api.iml
+.rpt2_cache/
+spec/
+src/
+jasmine.json
+karma.conf.js
+rollup.config.js
+tsconfig.json
+package-lock.json

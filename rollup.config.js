@@ -4,7 +4,6 @@ import commonjs from 'rollup-plugin-commonjs';
 import includepaths from 'rollup-plugin-includepaths';
 import sourcemaps from 'rollup-plugin-sourcemaps';
 import typescript from 'rollup-plugin-typescript2';
-import copy from 'rollup-plugin-copy';
 import uglify from 'rollup-plugin-uglify';
 
 export default {
@@ -27,9 +26,6 @@ export default {
 			exclude: 'node_modules/**'
 		}),
 		sourcemaps(),
-		uglify(),
-		copy({
-			'package.json': 'dist/package.json'
-		})
+		uglify()
 	]
 };
