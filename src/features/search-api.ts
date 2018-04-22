@@ -1,15 +1,15 @@
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/dom/ajax';
-import 'rxjs/add/operator/map';
+import { Observable } from 'rxjs';
 
-import { SearchResult } from '../model/search-result';
 import { Context } from '../context';
-import { Movie } from '../model/movie';
-import { Company } from '../model/company';
-import { Collection } from '../model/collection';
-import { Keyword } from '../model/keyword';
-import { TvShow } from '../model/tv-show';
-import { Person } from '../model/person';
+import {
+    SearchResult,
+    Movie,
+    Company,
+    Collection,
+    Keyword,
+    TvShow,
+    Person,
+} from '../';
 import { Helper } from '../helper';
 
 export class SearchApi {
@@ -21,6 +21,7 @@ export class SearchApi {
 	 * Builds the endpoint URL depending on which resource we are looking for
 	 * @param resource company, collection, keyword, movie, tv, person...
 	 * @param query
+	 * @param page
 	 * @returns {string}
 	 */
 	private url(resource: string, query: string, page: number) {

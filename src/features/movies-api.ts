@@ -1,9 +1,9 @@
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
+import { Observable } from 'rxjs';
+
 
 import { Context } from '../context';
 import { Helper } from '../helper';
-import { MovieDetails } from '../model/movie-details';
+import { MovieDetails } from '..';
 
 export class MoviesApi {
 

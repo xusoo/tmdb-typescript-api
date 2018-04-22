@@ -1,15 +1,16 @@
-import { TmdbApi } from '../../src/tmdb-api';
-import { Helper } from '../../src/helper';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs';
+import { from } from 'rxjs';
 
-import { Movie } from '../../src/model/movie';
-import { Company } from '../../src/model/company';
-import { Collection } from '../../src/model/collection';
-import { Keyword } from '../../src/model/keyword';
-import { Person } from '../../src/model/person';
-import { TvShow } from '../../src/model/tv-show';
-import { SearchResult } from '../../src/model/search-result';
+import {
+    TmdbApi,
+	Helper,
+    Movie,
+    Company,
+    Collection,
+    Keyword,
+    Person,
+    TvShow,
+    SearchResult,
+} from '../../src';
 
 describe('search feature', () => {
 
@@ -24,7 +25,7 @@ describe('search feature', () => {
 	function spyAjaxCall(fileLoader: Function) {
 		if (mockData) {
 			window['spyOn'](Helper, 'ajaxObservable').and.callFake((url) => {
-				return Observable.from([window['fixture'].load(fileLoader.call(this, url))]);
+				return from([window['fixture'].load(fileLoader.call(this, url))]);
 			});
 		}
 	}

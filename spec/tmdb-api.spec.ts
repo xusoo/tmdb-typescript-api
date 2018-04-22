@@ -1,9 +1,11 @@
-import { TmdbApi } from '../src/tmdb-api';
-import { SearchApi } from '../src/features/search-api';
-import { MoviesApi } from '../src/features/movies-api';
-import { PeopleApi } from '../src/features/people-api';
-import { CollectionsApi } from '../src/features/collections-api';
-import { TvApi } from '../src/features/tv-api';
+import {
+	TmdbApi,
+	SearchApi,
+	MoviesApi,
+	PeopleApi,
+	CollectionsApi,
+	TvApi,
+} from '../src';
 
 describe('basic usage', () => {
 

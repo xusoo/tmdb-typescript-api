@@ -1,6 +1,4 @@
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/dom/ajax';
-import 'rxjs/add/observable/from';
+import { Observable } from 'rxjs';
 export declare class Helper {
     static ajaxObservable(url: any): Observable<any>;
 }

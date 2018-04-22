@@ -1,9 +1,10 @@
-import { TmdbApi } from '../../src/tmdb-api';
-import 'rxjs';
+import { from } from 'rxjs';
 
-import { Observable } from 'rxjs/Observable';
-import { Helper } from '../../src/helper';
-import { CollectionDetails } from '../../src/model/collection-details';
+import {
+	TmdbApi,
+	Helper,
+	CollectionDetails
+} from '../../src';
 
 describe('collections feature', () => {
 
@@ -12,7 +13,7 @@ describe('collections feature', () => {
 	it('should fetch collection details', (done) => {
 
 		if (!api.context.apiKey) {
-			window['spyOn'](Helper, 'ajaxObservable').and.callFake((url) => Observable.from([window['fixture'].load('batman-collection-details-response.json')]));
+			window['spyOn'](Helper, 'ajaxObservable').and.callFake((url) => from([window['fixture'].load('batman-collection-details-response.json')]));
 		}
 
 		api.collections.details(263).subscribe((collection: CollectionDetails) => {

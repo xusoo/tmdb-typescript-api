@@ -2,3 +2,4 @@ node_modules/
 .idea/
 tmdb-typescript-api.iml
 .rpt2_cache/
+.DS_Store

@@ -1,9 +1,10 @@
-import { TmdbApi } from '../../src/tmdb-api';
-import 'rxjs';
+import { from } from 'rxjs';
 
-import { Observable } from 'rxjs/Observable';
-import { Helper } from '../../src/helper';
-import { TvShowDetails } from '../../src/model/tv-show-details';
+import {
+    TmdbApi,
+    Helper,
+    TvShowDetails
+} from '../../src';
 
 describe('tv feature', () => {
 
@@ -12,7 +13,7 @@ describe('tv feature', () => {
 	it('should fetch tv show details', (done) => {
 
 		if (!api.context.apiKey) {
-			window['spyOn'](Helper, 'ajaxObservable').and.callFake((url) => Observable.from([window['fixture'].load('lost-tvshow-details-response.json')]));
+			window['spyOn'](Helper, 'ajaxObservable').and.callFake((url) => from([window['fixture'].load('lost-tvshow-details-response.json')]));
 		}
 
 		api.tvshows.details(4607).subscribe((tvshow: TvShowDetails) => {

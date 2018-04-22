@@ -1,14 +1,6 @@
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/dom/ajax';
-import 'rxjs/add/operator/map';
-import { SearchResult } from '../model/search-result';
+import { Observable } from 'rxjs';
 import { Context } from '../context';
-import { Movie } from '../model/movie';
-import { Company } from '../model/company';
-import { Collection } from '../model/collection';
-import { Keyword } from '../model/keyword';
-import { TvShow } from '../model/tv-show';
-import { Person } from '../model/person';
+import { SearchResult, Movie, Company, Collection, Keyword, TvShow, Person } from '../';
 export declare class SearchApi {
     private context;
     constructor(context: Context);
