@@ -2,22 +2,22 @@
   "backdrop_path": "/pRPJj3oczSIxo8L80qNweXaWnrp.jpg",
   "created_by": [
     {
-      "id": 1237491,
-      "name": "Jeffrey Lieber",
-      "gender": 0,
-      "profile_path": null
-    },
-    {
       "id": 15344,
       "name": "J.J. Abrams",
       "gender": 2,
-      "profile_path": "/xljsYopubv9egYzclBPNf9EAYxB.jpg"
+      "profile_path": "/uiEVOx3QclxnN76t8PU6v5IcUUP.jpg"
     },
     {
       "id": 28974,
       "name": "Damon Lindelof",
+      "gender": 2,
+      "profile_path": "/yIvxq9E6YLVobB9m6QcnFCXRq8a.jpg"
+    },
+    {
+      "id": 1237491,
+      "name": "Jeffrey Lieber",
       "gender": 0,
-      "profile_path": "/ijBWknhNh6At8gDoWqpoyvyXrZX.jpg"
+      "profile_path": null
     }
   ],
   "episode_run_time": [
@@ -49,8 +49,10 @@
   "name": "Lost",
   "networks": [
     {
+      "name": "ABC",
       "id": 2,
-      "name": "American Broadcasting Company"
+      "logo_path": "/uuEOGcTrJ9xq8WSI2OGvGFpp9H.png",
+      "origin_country": "US"
     }
   ],
   "number_of_episodes": 120,
@@ -60,17 +62,21 @@
   ],
   "original_language": "en",
   "original_name": "Lost",
-  "overview": "Lost is an American television series that originally aired on the American Broadcasting Company from September 22, 2004 to May 23, 2010, over six seasons which contained a total of 121 episodes. Lost is a drama series containing elements of science fiction and the supernatural that follows the survivors of the crash of a commercial passenger jet flying between Sydney and Los Angeles, on a mysterious tropical island somewhere in the South Pacific Ocean. The story is told in a heavily serialized manner. Episodes typically feature a primary storyline on the island, as well as a secondary storyline from another point in a character's life.",
-  "popularity": 21.546978,
+  "overview": "Stripped of everything, the survivors of a horrific plane crash  must work together to stay alive. But the island holds many secrets.",
+  "popularity": 50.346503,
   "poster_path": "/jyGspygDXJMydTOJj7iWNx9Elyd.jpg",
   "production_companies": [
     {
-      "name": "Bad Robot",
-      "id": 11461
+      "id": 19366,
+      "logo_path": "/vOH8dyQhLK01pg5fYkgiS31jlFm.png",
+      "name": "ABC Studios",
+      "origin_country": "US"
     },
     {
-      "name": "ABC Studios",
-      "id": 19366
+      "id": 11461,
+      "logo_path": "/p9FoEt5shEKRWRKVIlvFaEmRnun.png",
+      "name": "Bad Robot",
+      "origin_country": "US"
     }
   ],
   "seasons": [
@@ -78,6 +84,8 @@
       "air_date": "2005-04-27",
       "episode_count": 29,
       "id": 14047,
+      "name": "Specials",
+      "overview": "",
       "poster_path": "/u1hvfXTqebq6Na5zhzHiJYZT0YK.jpg",
       "season_number": 0
     },
@@ -85,6 +93,8 @@
       "air_date": "2004-09-22",
       "episode_count": 24,
       "id": 14041,
+      "name": "Season 1",
+      "overview": "Mysteries abound on the first season of LOST as the survivors of Oceanic Air flight 815 find themselves stranded on an unidentified island with little hope of rescue.",
       "poster_path": "/fc9f4ERC09U1GziCgDWilWWgjKx.jpg",
       "season_number": 1
     },
@@ -92,6 +102,8 @@
       "air_date": "2005-09-21",
       "episode_count": 24,
       "id": 14042,
+      "name": "Season 2",
+      "overview": "The second season of the American serial drama television series Lost commenced airing in the United States and Canada on September 21, 2005 and concluded on May 24, 2006. The second season continues the stories of a group of over forty people who have been stranded on a remote island in the south Pacific, after their airplane crashed forty-four days prior to the beginning of the season. The producers have stated that as the first season is about introducing the survivors, the second season is about a 1970s scientific Dharma Initiative research station which the survivors discovered on the island and refer to as \"the hatch\". The second season aired Wednesdays at 9:00 pm in the United States. In addition to the regular twenty-four episodes, three clip-shows recapped previous events on the show. \"Destination Lost\" aired before the premiere, \"Lost: Revelation\" aired before the tenth episode and \"Lost: Reckoning\" aired before the twentieth episode. The season was released on DVD as a seven disc boxed set under the title of Lost: The Complete Second Season – The Extended Experience on September 5, 2006 by Buena Vista Home Entertainment.",
       "poster_path": "/vGLddXoXJhKPsAWeDYbAsE4wW1z.jpg",
       "season_number": 2
     },
@@ -99,6 +111,8 @@
       "air_date": "2006-10-04",
       "episode_count": 23,
       "id": 14043,
+      "name": "Season 3",
+      "overview": "The third season of the American serial drama television series Lost commenced airing in the United States and Canada on October 4, 2006 and concluded on May 23, 2007. The third season continues the stories of a group of over 40 people who have been stranded on a remote island in the South Pacific, after their airplane crashed 68 days prior to the beginning of the season. In the Lost universe, the season takes place from November 28 to December 21, 2004. The producers have stated that as the first season is about introducing the survivors and the second season is about the hatch, the third season is about the Others, a group of mysterious island inhabitants.\n\nIn response to fan complaints about scheduling in the previous seasons, ABC decided to air the episodes without reruns, albeit in two separate blocks. In the United States, the first block consisted of six episodes aired on Wednesdays at 9:00 pm and after a twelve week break, the season continued with the remaining 16 episodes at 10:00 pm. In addition, three clip-shows recapped previous events on the show. \"Lost: A Tale of Survival\" aired a week before the season premiere, \"Lost Survivor Guide\" aired before the seventh episode and \"Lost: The Answers\" aired before the season finale Buena Vista Home Entertainment released the season under the title Lost: The Complete Third Season – The Unexplored Experience on December 11, 2007 in Region 1 on DVD and Blu-ray Disc.",
       "poster_path": "/zLnuh6DVyrz5iaNVO6KNKubtffo.jpg",
       "season_number": 3
     },
@@ -106,6 +120,8 @@
       "air_date": "2008-01-31",
       "episode_count": 14,
       "id": 14044,
+      "name": "Season 4",
+      "overview": "The fourth season of the American serial drama television series Lost commenced airing on the American Broadcasting Company Network in the United States, and on CTV in Canada on January 31, 2008 and concluded on May 29, 2008. The season continues the stories of a group of over 40 people who have been stranded on a remote island in the South Pacific, after their airplane crashed there more than 90 days prior to the beginning of the season. According to Lost's executive producers/writers/showrunners Damon Lindelof and Carlton Cuse, there are two main themes in fourth season: \"the castaways' relationship to the freighter folk\" and \"who gets off the island and the fact that they need to get back\". Lost came under scrutiny from critics in its third season, but the fourth season was acclaimed for its flash-forwards, pace and new characters.\n\nThe season was originally planned to contain 16 episodes; eight were filmed before the start of the 2007–2008 Writers Guild of America strike. Following the strike's resolution, it was announced that only five more episodes would be produced to complete the season; however, the season finale's script was so long that network executives approved the production of a 14th episode as part of a three-hour season finale split over two nights. The fourth season aired Tuesdays at 9:00 pm from January 31 to March 20, 2008 and at 10:00 pm from April 24 to May 15, 2008. The two-hour finale aired at 9:00 pm on May 29, 2008. Buena Vista Home Entertainment released the season on DVD and Blu-ray Disc under the title Lost: The Complete Fourth Season – The Expanded Experience on December 9, 2008 in Region 1; however, it was released earlier—on October 20, 2008—in Region 2.",
       "poster_path": "/TOfSxtW76sWrPn3YSm5GooaR3Y.jpg",
       "season_number": 4
     },
@@ -113,6 +129,8 @@
       "air_date": "2009-01-21",
       "episode_count": 17,
       "id": 14045,
+      "name": "Season 5",
+      "overview": "The fifth season of the American serial drama television series Lost commenced airing on the ABC network in the United States and on A in Canada in January 2009, and concluded with a two-hour season finale on May 13, 2009. The season continues the stories of the survivors of the fictional crash of Oceanic Airlines Flight 815, after some of them are rescued and those still stranded seemingly disappear to an unknown location and time with the island that they inhabit.\n\nAccording to Lost's co-creator/executive producer/writer/show runner Damon Lindelof, the season \"is about why [the people who have left the island] need to get back\". Lost returned on January 21, 2009 on ABC with a three-hour premiere consisting of a clip-show and two back-to-back new episodes. The remainder of the season aired on Wednesdays at 9:00 pm EST. The season began in the UK and Ireland on January 25, 2009 on Sky1 and RTÉ Two, respectively. The season was released on DVD and Blu-ray Disc under the title Lost: The Complete Fifth Season – The Journey Back, Expanded Edition on December 8, 2009.",
       "poster_path": "/2OYKA6UIC56loPxgL4IMshg4mVr.jpg",
       "season_number": 5
     },
@@ -120,12 +138,14 @@
       "air_date": "2010-02-02",
       "episode_count": 18,
       "id": 14046,
+      "name": "Season 6",
+      "overview": "The sixth and final season of the American serial drama television series Lost commenced airing in the United States and Canada on February 2, 2010. The sixth-season premiere was the first to climb in the ratings year-over-year since the second season, drawing 12.1 million viewers. The season aired Tuesdays at 9:00 pm from February 2 to May 18. The series finale aired on Sunday, May 23, 2010. The finale ran two-and-a-half hours starting at 9:00 pm; pushing the local news back a half-hour, followed by the previously announced post-finale special, Jimmy Kimmel Live: Aloha to Lost, at 12:05 am. The season continues the stories of the survivors of the fictional September 22, 2004 crash of Oceanic Airlines Flight 815 on a mysterious island in the South Pacific. The survivors must deal with two outcomes of the detonation of a nuclear bomb on the island in the 1970s. While the on-island story continues, \"flash sideways\" show a second timeline, in which Flight 815 never crashes. The season was released on DVD and Blu-ray on August 24, 2010, alongside a complete series boxset.",
       "poster_path": "/xUb57GiEwg6pJpU4F3e01PKRVlc.jpg",
       "season_number": 6
     }
   ],
   "status": "Ended",
   "type": "Scripted",
-  "vote_average": 7.7,
-  "vote_count": 659
+  "vote_average": 7.8,
+  "vote_count": 956
 }

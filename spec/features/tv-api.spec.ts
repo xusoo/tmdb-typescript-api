@@ -32,12 +32,28 @@ describe('tv feature', () => {
 			expect(<any>tvshow.genres[1]).toEqual({id: 18, name: 'Drama'});
 			expect(<any>tvshow.genres[2]).toEqual({id: 9648, name: 'Mystery'});
 
-			expect(<any>tvshow.created_by[0].id).toEqual(1237491);
-			expect(<any>tvshow.created_by[1].id).toEqual(15344);
+			expect(<any>tvshow.created_by[0].id).toEqual(15344);
+			expect(<any>tvshow.created_by[1].id).toEqual(28974);
 
-			expect(<any>tvshow.networks[0]).toEqual({id: 2, name: 'American Broadcasting Company'});
-			expect(<any>tvshow.production_companies[0]).toEqual({name: 'Bad Robot', id: 11461});
-			expect(<any>tvshow.production_companies[1]).toEqual({name: 'ABC Studios', id: 19366});
+			expect(<any>tvshow.networks[0]).toEqual({
+                "name": "ABC",
+                "id": 2,
+                "logo_path": "/uuEOGcTrJ9xq8WSI2OGvGFpp9H.png",
+                "origin_country": "US"
+            });
+			expect(<any>tvshow.production_companies[0]).toEqual({
+                "id": 19366,
+                "logo_path": "/vOH8dyQhLK01pg5fYkgiS31jlFm.png",
+                "name": "ABC Studios",
+                "origin_country": "US"
+            });
+			expect(<any>tvshow.production_companies[1]).toEqual({
+                    "id": 11461,
+                    "logo_path": "/p9FoEt5shEKRWRKVIlvFaEmRnun.png",
+                    "name": "Bad Robot",
+                    "origin_country": "US"
+                }
+            );
 
 			expect(tvshow.episode_run_time).toEqual([45, 42]);
 			expect(<any>tvshow.number_of_episodes).toEqual(120);

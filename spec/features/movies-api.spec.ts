@@ -32,8 +32,13 @@ describe("movies feature", () => {
             expect(movie.genres[2] as any).toEqual({id: 16, name: "Animation"});
             expect(movie.genres[3] as any).toEqual({id: 10751, name: "Family"});
 
-            expect(movie.production_companies[0] as any).toEqual({id: 2, name: "Walt Disney Pictures"});
-            expect(movie.production_companies[1] as any).toEqual({id: 3, name: "Pixar Animation Studios"});
+            expect(movie.production_companies[0] as any).toEqual(    {
+                    "id": 3,
+                    "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+                    "name": "Pixar",
+                    "origin_country": "US"
+                }
+            );
 
             expect(movie.production_countries[0] as any).toEqual({iso_3166_1: "US", name: "United States of America"});
 
