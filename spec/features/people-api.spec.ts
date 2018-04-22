@@ -1,9 +1,10 @@
-import { TmdbApi } from '../../src/tmdb-api';
-import 'rxjs';
+import { from } from 'rxjs';
 
-import { Observable } from 'rxjs/Observable';
-import { Helper } from '../../src/helper';
-import { PersonDetails } from '../../src/model/person-details';
+import {
+	TmdbApi,
+	Helper,
+	PersonDetails
+} from '../../src';
 
 describe('people feature', () => {
 
@@ -12,7 +13,7 @@ describe('people feature', () => {
 	it('should fetch person details', (done) => {
 
 		if (!api.context.apiKey) {
-			window['spyOn'](Helper, 'ajaxObservable').and.callFake((url) => Observable.from([window['fixture'].load('tarantino-people-details-response.json')]));
+			window['spyOn'](Helper, 'ajaxObservable').and.callFake((url) => from([window['fixture'].load('tarantino-people-details-response.json')]));
 		}
 
 		api.people.details(138).subscribe((person: PersonDetails) => {

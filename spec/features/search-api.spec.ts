@@ -1,15 +1,16 @@
-import { TmdbApi } from '../../src/tmdb-api';
-import { Helper } from '../../src/helper';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs';
+import { from } from 'rxjs';
 
-import { Movie } from '../../src/model/movie';
-import { Company } from '../../src/model/company';
-import { Collection } from '../../src/model/collection';
-import { Keyword } from '../../src/model/keyword';
-import { Person } from '../../src/model/person';
-import { TvShow } from '../../src/model/tv-show';
-import { SearchResult } from '../../src/model/search-result';
+import {
+    TmdbApi,
+	Helper,
+    Movie,
+    Company,
+    Collection,
+    Keyword,
+    Person,
+    TvShow,
+    SearchResult,
+} from '../../src';
 
 describe('search feature', () => {
 
@@ -24,7 +25,7 @@ describe('search feature', () => {
 	function spyAjaxCall(fileLoader: Function) {
 		if (mockData) {
 			window['spyOn'](Helper, 'ajaxObservable').and.callFake((url) => {
-				return Observable.from([window['fixture'].load(fileLoader.call(this, url))]);
+				return from([window['fixture'].load(fileLoader.call(this, url))]);
 			});
 		}
 	}
@@ -56,21 +57,21 @@ describe('search feature', () => {
 
 	it('should find companies', (done) => {
 
-		spyAjaxCall(() => 'hbo-companies-response-page-1.json');
+		spyAjaxCall(() => 'fox-companies-response-page-1.json');
 
-		api.search.companies('hbo').subscribe((search: SearchResult<Company>) => {
+		api.search.companies('fox').subscribe((search: SearchResult<Company>) => {
 			expect(<any>search.page).toEqual(1);
 
 			if (mockData) {
 				expect(<any>search.total_pages).toEqual(2);
-				expect(<any>search.total_results).toEqual(29);
+				expect(<any>search.total_results).toEqual(106);
 				expect(<any>search.results.length).toEqual(20);
 			}
 
-			const company = search.results.find(result => result.id === 6068);
-			expect(<any>company.id).toEqual(6068);
-			expect(company.name).toEqual('HBO');
-			expect(company.logo_path).toBeDefined();
+			const company = search.results.find(result => result.id === 5924);
+			expect(<any>company.id).toEqual(5924);
+			expect(company.name).toEqual('Fox');
+			expect(company.logo_path).toBeNull();
 
 			done();
 		});
@@ -78,20 +79,20 @@ describe('search feature', () => {
 
 	it('should find keywords', (done) => {
 
-		spyAjaxCall(() => 'zombies-keywords-response.json');
+		spyAjaxCall(() => 'computer-keywords-response.json');
 
-		api.search.keywords('zombies').subscribe((search: SearchResult<Keyword>) => {
+		api.search.keywords('computer').subscribe((search: SearchResult<Keyword>) => {
 			expect(<any>search.page).toEqual(1);
 
 			if (mockData) {
-				expect(<any>search.total_pages).toEqual(1);
-				expect(<any>search.total_results).toEqual(1);
-				expect(<any>search.results.length).toEqual(1);
+				expect(<any>search.total_pages).toEqual(2);
+				expect(<any>search.total_results).toEqual(37);
+				expect(<any>search.results.length).toEqual(20);
 			}
 
-			const keyword = search.results.find(result => result.id === 12377);
-			expect(<any>keyword.id).toEqual(12377);
-			expect(keyword.name).toEqual('zombies');
+			const keyword = search.results.find(result => result.id === 6104);
+			expect(<any>keyword.id).toEqual(6104);
+			expect(keyword.name).toEqual('computer');
 
 			done();
 		});
@@ -211,16 +212,16 @@ describe('search feature', () => {
 	it('should paginate search results', (done) => {
 
 		spyAjaxCall((url) => {
-			return`hbo-companies-response-page-${url.match(/&page=(\d+)/)[1]}.json`;
+			return`fox-companies-response-page-${url.match(/&page=(\d+)/)[1]}.json`;
 		});
 
 		(function makeCall(page) {
-			api.search.companies('hbo', page).subscribe((search: SearchResult<any>) => {
+			api.search.companies('fox', page).subscribe((search: SearchResult<any>) => {
 				expect(search.page).toEqual(page);
 
 				if (mockData) {
 					expect(<any>search.total_pages).toEqual(2);
-					expect(<any>search.total_results).toEqual(29);
+					expect(<any>search.total_results).toEqual(106);
 				}
 
 				expect(search.results.length).toBeGreaterThan(1);

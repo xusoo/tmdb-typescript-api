@@ -7,14 +7,15 @@ import typescript from 'rollup-plugin-typescript2';
 import uglify from 'rollup-plugin-uglify';
 
 export default {
-	entry: 'src/index.ts',
-	format: 'cjs',
-	dest: 'dist/index.js',
-	sourceMap: true,
-	plugins: [
-		resolve({
-			module: true,
-		}),
+	input: 'src/index.ts',
+    output: {
+		file: 'dist/index.js',
+		format: 'umd',
+		name: 'tmdb-typescript-api',
+    	sourceMap: true,
+	},
+    plugins: [
+		resolve(),
 		typescript(),
 		commonjs({
 			include: 'node_modules/**'

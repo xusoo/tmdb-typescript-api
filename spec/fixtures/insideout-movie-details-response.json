@@ -27,16 +27,14 @@
   "original_language": "en",
   "original_title": "Inside Out",
   "overview": "Growing up can be a bumpy road, and it's no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Like all of us, Riley is guided by her emotions - Joy, Fear, Anger, Disgust and Sadness. The emotions live in Headquarters, the control center inside Riley's mind, where they help advise her through everyday life. As Riley and her emotions struggle to adjust to a new life in San Francisco, turmoil ensues in Headquarters. Although Joy, Riley's main and most important emotion, tries to keep things positive, the emotions conflict on how best to navigate a new city, house and school.",
-  "popularity": 7.94676,
+  "popularity": 46.193148,
   "poster_path": "/aAmfIX3TT40zUHGcCKrlOZRKC7u.jpg",
   "production_companies": [
     {
-      "name": "Walt Disney Pictures",
-      "id": 2
-    },
-    {
-      "name": "Pixar Animation Studios",
-      "id": 3
+    "id": 3,
+    "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+    "name": "Pixar",
+    "origin_country": "US"
     }
   ],
   "production_countries": [
@@ -58,6 +56,6 @@
   "tagline": "Meet the little voices inside your head.",
   "title": "Inside Out",
   "video": false,
-  "vote_average": 8,
-  "vote_count": 5700
+  "vote_average": 7.9,
+  "vote_count": 8900
 }

@@ -1,9 +1,9 @@
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
+import { Observable } from 'rxjs';
+
 
 import { Context } from '../context';
 import { Helper } from '../helper';
-import { TvShowDetails } from '../model/tv-show-details';
+import { TvShowDetails } from '..';
 
 export class TvApi {
 

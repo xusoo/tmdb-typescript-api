@@ -1,21 +1,19 @@
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/dom/ajax';
-import 'rxjs/add/observable/from';
+import { Observable } from 'rxjs';
+import { map } from "rxjs/operators";
+import { ajax } from 'rxjs/ajax';
 
 export class Helper {
-
 	/**
-	 * Returns an Observable from an AJAX call
-	 * @param url
-	 * @returns {Observable}
+	 * @param url 
 	 */
-	public static ajaxObservable(url) {
-		return Observable.ajax({
+	public static ajaxObservable(url): Observable<any> {
+		return ajax({
 			url: url,
 			crossDomain: true
-		}).map(ajax => {
-			return ajax.response;
-		});
+		}).pipe(
+			map(ajax => {
+				return ajax.response;
+			})
+		)
 	}
-
 }
