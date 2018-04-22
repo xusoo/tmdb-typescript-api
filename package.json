@@ -7,8 +7,13 @@
   "types": "dist/src/index.d.ts",
   "scripts": {
     "test": "karma start",
-    "build": "rm -rf dist && rollup -c"
+    "build": "rm -rf dist && rollup -c",
+    "prepublish": "npm run build"
   },
+  "files": [
+    "dist/index.js",
+    "dist/src"
+  ],
   "keywords": [
     "tmdb",
     "api",

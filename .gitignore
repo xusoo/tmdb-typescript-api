@@ -1,5 +1,14 @@
-node_modules/
+# ide
 .idea/
-tmdb-typescript-api.iml
-.rpt2_cache/
+
+# environment
 .DS_Store
+
+# node
+node_modules/
+
+# test cache
+.rpt2_cache/
+
+# built files
+dist
